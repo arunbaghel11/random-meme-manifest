@@ -18,7 +18,7 @@ node {
                     sh "cat deployment.yaml"
                     
                     // Replace the old Docker tag with the new one in deployment.yaml
-                    sh "sed -i 's+raj80dockerid/test.*+raj80dockerid/test:${DOCKERTAG}+g' deployment.yaml"
+                    sh "sed -i 's+arun662/react-app.*+arun662/react-app:${DOCKERTAG}+g' deployment.yaml"
                     sh "cat deployment.yaml"
                     
                     // Stage and commit changes
