@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app
-          image: raj80dockerid/test:${DOCKERTAG} # Replace with your image and tag
+          image: arun662/react-app:${DOCKERTAG} # Replace with your image and tag
           ports:
             - containerPort: 80
 
